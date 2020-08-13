@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.N{
+    background-color: #eecc00;
+    width: 100%;
+    height: 80px;
+    border: solid 5px red;
+}
+.N .F{
+    width: 100%;
+    height: auto;
+    margin-left: 80px;
+     
+}
+.F img{
+    float: left;
+    width: 80px;
+    height: 50px;
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.F .H{
+    float: left;
+}
+.H{
+    padding: 35px;
+
+}
+.K{
+    background-image: url(../image/MTN6.jpg);
+    background-size: cover;
+    height: 500px; 
+    border: 5px solid blue; 
+}
+
+
+.K h3{ text-align: center;
+    color: white;
+ 
+}
+ /*.K .P h2{
+    color: white;
+    margin: 20px;
+    float: right;
+    padding: 120px;
+   
+}   
+/* .k .P h1{
+      color: white;
+      margin: 20px;
+      float:right;
+      padding: 120px;
+      text-overflow:ellipsis;
+      
+}  */
+.P { 
+    /* display: flex; */
+
+}
+#o{
+    width: 250px;
+    height: 300px;
+    border-radius: 20px;
+    margin-left: 200px;
+    margin-top: 85px;
+    background-color: white;
+    
+    
+}
+ #m{
+    width: 250px;
+    height: 100px;
+    background-color: #eecc00;
+    /* border-radius: 20px; */
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    font-size:20px ;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    /* padding-left: 5px; */
+} 
+#m p{
+    text-align: center;
+}
+#o input{
+    display: block;
+    width: 300px;
+    height: 30px;
+}
